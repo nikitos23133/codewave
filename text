@@ -1,12 +1,25 @@
 codewave/
-├── client/               # React фронтенд
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── .env
-├── server/               # Node.js бэкенд
-│   ├── index.js
-│   ├── package.json
-│   └── .env
-├── .gitignore
-└── README.md
+├── client/                  # React фронтенд
+│   ├── public/              # Статические файлы
+│   │   ├── index.html
+│   │   └── robots.txt
+│   ├── src/                 # Исходники
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── styles/
+│   ├── .env                 # Локальные переменные
+│   ├── package.json         # Зависимости фронтенда
+│   └── README-client.md     # Инструкции (опционально)
+│
+├── server/                  # Node.js бэкенд
+│   ├── controllers/         # Логика API
+│   ├── models/              # Модели данных
+│   ├── routes/              # Роуты
+│   ├── index.js             # Точка входа
+│   ├── .env                 # Конфигурация
+│   ├── package.json         # Зависимости сервера
+│   └── README-server.md     # Инструкции (опционально)
+│
+├── .gitignore               # Игнорируемые файлы
+├── README.md                # Основная документация
+└── LICENSE                  # Лицензия (опционально)
