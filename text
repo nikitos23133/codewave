@@ -1,0 +1,12 @@
+codewave/
+├── client/               # React фронтенд
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── .env
+├── server/               # Node.js бэкенд
+│   ├── index.js
+│   ├── package.json
+│   └── .env
+├── .gitignore
+└── README.md
